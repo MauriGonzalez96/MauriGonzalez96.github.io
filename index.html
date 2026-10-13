@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="es" data-lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mauricio Gonzalez · Back-End Developer</title>
+  <meta name="description" content="Portfolio de Mauricio Gonzalez, desarrollador Back-End (Python, FastAPI, Django, Java Spring Boot, Vue.js) en Neuquén, Argentina. Sistemas de gestión, puntos de venta, facturación e integraciones." />
+  <meta name="author" content="Mauricio Javier Gonzalez" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Mauricio Gonzalez · Back-End Developer" />
+  <meta property="og:description" content="Python · FastAPI · Django · Spring Boot · Vue.js — sistemas de gestión, puntos de venta e integraciones." />
+  <meta property="og:url" content="https://maurigonzalez96.github.io/" />
+  <meta property="og:image" content="https://maurigonzalez96.github.io/assets/img/og-cover.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#0b0f17" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="nav__brand" aria-label="Inicio">
+        <span class="mono-badge">MG</span>
+        <span class="nav__name">Mauricio Gonzalez</span>
+      </a>
+      <nav class="nav__links" aria-label="Secciones">
+        <a href="#sobre-mi"><span lang="es">Sobre mí</span><span lang="en">About</span></a>
+        <a href="#camino"><span lang="es">Trayectoria</span><span lang="en">Journey</span></a>
+        <a href="#stack">Stack</a>
+        <a href="#proyectos"><span lang="es">Proyectos</span><span lang="en">Projects</span></a>
+        <a href="#contacto"><span lang="es">Contacto</span><span lang="en">Contact</span></a>
+      </nav>
+      <button class="lang-toggle" id="langToggle" type="button" aria-label="Cambiar idioma / Change language">
+        <span data-active="es">ES</span><span class="sep">/</span><span data-active="en">EN</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <p class="eyebrow">
+            <span class="dot"></span>
+            <span lang="es">Disponible para proyectos remotos e internacionales</span>
+            <span lang="en">Open to remote &amp; international opportunities</span>
+          </p>
+          <div class="hero__id">
+            <img class="avatar" src="assets/img/mauricio.webp" alt="Foto de Mauricio Gonzalez" width="480" height="480" />
+            <div>
+              <h1>Mauricio Gonzalez</h1>
+              <p class="hero__role">Back-End Developer <span class="muted">·</span> Python · Java · Vue.js</p>
+            </div>
+          </div>
+          <p class="hero__lead" lang="es">
+            Desarrollo sistemas de gestión que se usan todos los días en negocios reales: puntos de venta para
+            mayoristas del Mercado Central, depósitos y cámaras de frío, facturación electrónica, turnos para un
+            estudio de pilates. Me ocupo del backend, las integraciones y también de que el producto llegue instalado y
+            funcionando al cliente.
+          </p>
+          <p class="hero__lead" lang="en">
+            I build management systems that real businesses use every day: point-of-sale software for wholesale
+            produce markets, cold-storage warehouses, electronic invoicing, booking for a pilates studio.
+            I own the backend and integrations, and make sure the product actually ships, installed and running.
+          </p>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#proyectos"><span lang="es">Ver proyectos</span><span lang="en">See projects</span></a>
+            <a class="btn btn--ghost" href="https://www.linkedin.com/in/mauricio-gonzalez-773286252/" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn btn--ghost" href="https://github.com/MauriGonzalez96" target="_blank" rel="noopener">GitHub</a>
+          </div>
+          <ul class="hero__facts">
+            <li><strong>4+</strong><span lang="es">años desarrollando profesionalmente</span><span lang="en">years of professional development</span></li>
+            <li><strong>15+</strong><span lang="es">repositorios con código propio</span><span lang="en">repositories with my code</span></li>
+            <li><strong>Neuquén</strong><span lang="es">Argentina · remoto</span><span lang="en">Argentina · remote</span></li>
+          </ul>
+        </div>
+
+        <div class="hero__card" aria-hidden="true">
+          <div class="term">
+            <div class="term__bar"><i></i><i></i><i></i><span>~/mauricio</span></div>
+            <pre class="term__body"><code><span class="c-k">class</span> <span class="c-t">Developer</span>:
+    name    = <span class="c-s">"Mauricio Gonzalez"</span>
+    role    = <span class="c-s">"Back-End Developer"</span>
+    based   = <span class="c-s">"Neuquén, AR"</span>
+    stack   = [<span class="c-s">"Python"</span>, <span class="c-s">"FastAPI"</span>, <span class="c-s">"Django"</span>,
+               <span class="c-s">"Spring Boot"</span>, <span class="c-s">"Vue 3"</span>, <span class="c-s">"Quasar"</span>]
+    data    = [<span class="c-s">"PostgreSQL"</span>, <span class="c-s">"SQL Server"</span>, <span class="c-s">"MySQL"</span>]
+    ships   = [<span class="c-s">"Docker"</span>, <span class="c-s">"Electron"</span>, <span class="c-s">"Capacitor"</span>]
+    domain  = <span class="c-s">"Agritech &amp; business systems"</span>
+
+    <span class="c-k">def</span> <span class="c-f">motto</span>(self):
+        <span class="c-k">return</span> <span class="c-s">"Software que se usa todos los días."</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobre-mi" class="section">
+      <div class="container">
+        <h2 class="section__title"><span class="num">01</span><span lang="es">Sobre mí</span><span lang="en">About me</span></h2>
+        <div class="about">
+          <div class="about__text">
+            <div lang="es">
+              <p>
+                Soy desarrollador <strong>Back-End</strong> con casi 5 años de experiencia creando soluciones para el
+                sector <strong>agroindustrial</strong> y para pymes. Trabajo principalmente con <strong>Python
+                (FastAPI, Django)</strong>, <strong>Java (Spring Boot)</strong> y <strong>Vue.js</strong>.
+              </p>
+              <p>
+                Vengo de estudiar <strong>Contabilidad</strong> en la Universidad Nacional del Chaco Austral. Esa base
+                me dejó algo que uso todos los días: entender cómo se mueve el dinero y la mercadería en un negocio.
+                Por eso me siento cómodo con facturación, cuentas corrientes, cajas, stock y liquidaciones. Hice la
+                transición al software con práctica real y aprendizaje continuo (Platzi, documentación, proyectos
+                propios).
+              </p>
+              <p>
+                Me gusta el ciclo completo: diseñar la API, modelar la base, pero también empaquetar el instalador,
+                configurar el deploy y dejar el sistema funcionando en la PC del cliente.
+              </p>
+            </div>
+            <div lang="en">
+              <p>
+                I'm a <strong>Back-End</strong> developer with almost 5 years of experience building solutions for
+                <strong>agribusiness</strong> and small/medium companies. I mainly work with <strong>Python (FastAPI,
+                Django)</strong>, <strong>Java (Spring Boot)</strong> and <strong>Vue.js</strong>.
+              </p>
+              <p>
+                I studied <strong>Accounting</strong> at Universidad Nacional del Chaco Austral. That background gives
+                me something I use daily: understanding how money and goods flow through a business. That's why I'm
+                comfortable with invoicing, customer accounts, cash registers, stock and settlements. I moved into
+                software through hands-on work and continuous learning (Platzi, docs, side projects).
+              </p>
+              <p>
+                I enjoy the full cycle: designing the API and the data model, but also packaging the installer,
+                setting up the deploy and leaving the system running on the client's machine.
+              </p>
+            </div>
+          </div>
+          <ul class="qualities">
+            <li>
+              <h3><span lang="es">Pensamiento de negocio</span><span lang="en">Business mindset</span></h3>
+              <p lang="es">Formación contable: entiendo facturación, stock y cuentas corrientes antes de escribir código.</p>
+              <p lang="en">Accounting background: I understand invoicing, stock and accounts before writing code.</p>
+            </li>
+            <li>
+              <h3><span lang="es">Migración y modernización</span><span lang="en">Migration &amp; modernization</span></h3>
+              <p lang="es">Llevé sistemas consolidados (.NET / SQL Server) a servicios Python y frontends modernos.</p>
+              <p lang="en">Moved legacy systems (.NET / SQL Server) to Python services and modern frontends.</p>
+            </li>
+            <li>
+              <h3><span lang="es">Del código al cliente</span><span lang="en">From code to customer</span></h3>
+              <p lang="es">Instaladores Windows, apps Android/iOS, contenedores Docker y deploys en Railway y Render.</p>
+              <p lang="en">Windows installers, Android/iOS apps, Docker containers and deploys on Railway and Render.</p>
+            </li>
+            <li>
+              <h3><span lang="es">Trabajo en equipo</span><span lang="en">Teamwork</span></h3>
+              <p lang="es">Equipos multidisciplinarios, PRs, specs y documentación técnica.</p>
+              <p lang="en">Cross-functional teams, PRs, specs and technical documentation.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRAYECTORIA -->
+    <section id="camino" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title"><span class="num">02</span><span lang="es">Mi camino</span><span lang="en">My journey</span></h2>
+        <ol class="timeline">
+          <li class="timeline__item">
+            <span class="timeline__date">2014 — 2021</span>
+            <h3><span lang="es">Contador Público</span><span lang="en">Accounting</span> · UNCAUS</h3>
+            <p lang="es">Estudié Contabilidad en la Universidad Nacional del Chaco Austral. Ahí construí la base analítica que hoy aplico a sistemas de gestión.</p>
+            <p lang="en">Studied Accounting at Universidad Nacional del Chaco Austral, building the analytical foundation I now apply to business systems.</p>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__date">2021 — 2022</span>
+            <h3><span lang="es">El salto al software</span><span lang="en">Switching to software</span></h3>
+            <p lang="es">Decidí dedicarme por completo al desarrollo. Aprendí con Platzi, documentación oficial y mucha práctica.</p>
+            <p lang="en">Decided to fully commit to software development. Learned through Platzi, official docs and a lot of practice.</p>
+          </li>
+          <li class="timeline__item timeline__item--highlight">
+            <span class="timeline__date"><span lang="es">feb. 2022 — hoy</span><span lang="en">Feb 2022 — present</span></span>
+            <h3>Back-End / Full-Stack Developer · GYCSIS IT Consulting</h3>
+            <p lang="es">
+              Remoto. Desarrollo de <strong>Marketsis</strong>, el sistema de gestión para mayoristas frutihortícolas del
+              Mercado Central: autenticación, sincronizadores de entidades, punto de venta, servicio de impresión,
+              depósitos y cámaras de frío, facturación electrónica y pedidos. Migraciones de sistemas consolidados y
+              productos nuevos desde cero (MVPs incluidos).
+            </p>
+            <p lang="en">
+              Remote. Building <strong>Marketsis</strong>, the management system for wholesale produce distributors:
+              authentication, entity synchronizers, point of sale, print service, cold-storage warehouses, electronic
+              invoicing and orders. Legacy migrations and new products from scratch (including MVPs).
+            </p>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__date"><span lang="es">oct. 2024 — ago. 2025</span><span lang="en">Oct 2024 — Aug 2025</span></span>
+            <h3>Back-End Developer · Wildcat Media</h3>
+            <p lang="es">Neuquén, híbrido. Participé en proyectos de gran escala como <strong>Svant</strong>, desarrollando funcionalidades backend con <strong>Spring Boot y PostgreSQL</strong> junto a equipos multidisciplinarios.</p>
+            <p lang="en">Neuquén, hybrid. Worked on large-scale projects such as <strong>Svant</strong>, building backend features with <strong>Spring Boot and PostgreSQL</strong> alongside cross-functional teams.</p>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__date">2025 — 2026</span>
+            <h3><span lang="es">Proyectos para clientes propios</span><span lang="en">Freelance client projects</span></h3>
+            <p lang="es">El turnero completo de <strong>Total Pilates Fitness</strong> (Neuquén), con su landing y QR, además de herramientas y apps personales.</p>
+            <p lang="en">The full booking system for <strong>Total Pilates Fitness</strong> (Neuquén), with its landing page and QR, plus personal tools and apps.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section id="stack" class="section">
+      <div class="container">
+        <h2 class="section__title"><span class="num">03</span>Stack</h2>
+        <div class="stack">
+          <div class="stack__group">
+            <h3>Back-End</h3>
+            <ul class="chips">
+              <li>Python</li><li>FastAPI</li><li>Django / DRF</li><li>Java</li><li>Spring Boot</li>
+              <li>SQLAlchemy</li><li>Pydantic</li><li>JWT / OAuth2</li><li>REST APIs</li><li>Rust · Axum</li>
+            </ul>
+          </div>
+          <div class="stack__group">
+            <h3><span lang="es">Bases de datos</span><span lang="en">Databases</span></h3>
+            <ul class="chips">
+              <li>PostgreSQL</li><li>SQL Server</li><li>MySQL</li><li>SQLite</li>
+            </ul>
+          </div>
+          <div class="stack__group">
+            <h3>Front-End</h3>
+            <ul class="chips">
+              <li>Vue 3</li><li>Quasar</li><li>Pinia</li><li>TypeScript</li><li>JavaScript</li>
+            </ul>
+          </div>
+          <div class="stack__group">
+            <h3><span lang="es">Despliegue y entrega</span><span lang="en">Deploy &amp; delivery</span></h3>
+            <ul class="chips">
+              <li>Docker</li><li>Railway</li><li>Render</li><li>GitLab CI</li>
+              <li>Electron</li><li>Capacitor (Android/iOS)</li><li>PyInstaller</li><li>Inno Setup</li>
+            </ul>
+          </div>
+          <div class="stack__group">
+            <h3><span lang="es">Integraciones</span><span lang="en">Integrations</span></h3>
+            <ul class="chips">
+              <li><span lang="es">Factura electrónica AFIP (CAE)</span><span lang="en">AFIP e-invoicing (CAE)</span></li>
+              <li><span lang="es">Impresoras térmicas ESC/POS</span><span lang="en">ESC/POS thermal printers</span></li>
+              <li>QZ Tray</li><li>mDNS / Zeroconf</li><li><span lang="es">Sincronización local ↔ nube</span><span lang="en">Local ↔ cloud sync</span></li>
+              <li>PDF / Excel</li><li>WhatsApp</li>
+            </ul>
+          </div>
+          <div class="stack__group">
+            <h3><span lang="es">Calidad</span><span lang="en">Quality</span></h3>
+            <ul class="chips">
+              <li>pytest</li><li>Vitest</li><li>Playwright</li><li>Postman</li><li>OpenAPI / Swagger</li><li>Git</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title"><span class="num">04</span><span lang="es">Proyectos</span><span lang="en">Projects</span></h2>
+        <p class="section__intro" lang="es">Capturas reales de cada sistema. Donde hay datos, son de demostración o ficticios: los sistemas de clientes manejan información privada.</p>
+        <p class="section__intro" lang="en">Real screenshots of each system. Where data is shown, it's demo or fictional data — client systems handle private information.</p>
+
+        <!-- Marketsis PV -->
+        <article class="project project--featured">
+          <div class="project__media">
+            <figure class="shot shot--wide">
+              <img src="assets/img/projects/marketsis-stock.webp" alt="Marketsis PV: listado de stock del puesto" loading="lazy" width="1280" height="720" />
+            </figure>
+            <figure class="shot shot--phone">
+              <img src="assets/img/projects/marketsis-menu-movil.webp" alt="Marketsis PV: panel de gestión en el celular" loading="lazy" width="390" height="530" />
+            </figure>
+          </div>
+          <div class="project__body">
+            <div class="project__head">
+              <img class="project__logo" src="assets/img/projects/logo-marketsis.webp" alt="" width="44" height="44" />
+              <div>
+                <h3>Marketsis PV — <span lang="es">Punto de venta mayorista</span><span lang="en">Wholesale point of sale</span></h3>
+                <p class="project__meta">GYCSIS IT Consulting · 2025 — 2026 · <span lang="es">Autor principal</span><span lang="en">Lead author</span></p>
+              </div>
+            </div>
+            <p lang="es">
+              Punto de venta para puestos mayoristas de frutas y verduras del Mercado Central. Arma comandas, cobra
+              pedidos y facturas, gestiona vacíos y envases, caja (arqueo, alivio, gastos, adelantos), movimientos de
+              stock por partida y listados exportables a PDF y Excel.
+            </p>
+            <p lang="en">
+              Point of sale for wholesale fruit &amp; vegetable stalls. Handles orders, payments and invoices, crate and
+              packaging returns, cash register (counts, withdrawals, expenses, advances), stock movements by lot and
+              reports exportable to PDF and Excel.
+            </p>
+            <ul class="bullets">
+              <li lang="es">Servidor local por puesto (FastAPI + SQL Server) que se anuncia en la red por <strong>mDNS</strong>; el celular se empareja escaneando un <strong>QR</strong>.</li>
+              <li lang="en">Per-stall local server (FastAPI + SQL Server) announced over <strong>mDNS</strong>; phones pair by scanning a <strong>QR</strong>.</li>
+              <li lang="es">Una sola base de código para <strong>Windows</strong> (Electron + instalador firmado), <strong>Android</strong> e <strong>iOS</strong> (Capacitor), con versionado unificado.</li>
+              <li lang="en">One codebase for <strong>Windows</strong> (Electron + signed installer), <strong>Android</strong> and <strong>iOS</strong> (Capacitor), with unified versioning.</li>
+              <li lang="es">Licencia atada al hardware, sincronización con la nube y servidor de demo para la revisión de las tiendas.</li>
+              <li lang="en">Hardware-bound licensing, cloud sync and a demo server for app store review.</li>
+            </ul>
+            <ul class="tags"><li>FastAPI</li><li>SQL Server</li><li>Vue 3</li><li>Quasar</li><li>Electron</li><li>Capacitor</li><li>PyInstaller</li></ul>
+          </div>
+        </article>
+
+        <!-- Ecosistema Marketsis -->
+        <article class="project project--list">
+          <div class="project__head">
+            <img class="project__logo" src="assets/img/projects/logo-marketsis.webp" alt="" width="44" height="44" />
+            <div>
+              <h3><span lang="es">Ecosistema Marketsis — otros módulos</span><span lang="en">Marketsis ecosystem — other modules</span></h3>
+              <p class="project__meta">GYCSIS IT Consulting · 2022 — 2026</p>
+            </div>
+          </div>
+          <p lang="es">Marketsis es un ERP para distribuidoras frutihortícolas que está migrando de una plataforma .NET a servicios Python y Rust con frontends Vue 3. Además del punto de venta, trabajé en:</p>
+          <p lang="en">Marketsis is an ERP for produce distributors, migrating from a .NET platform to Python and Rust services with Vue 3 frontends. Besides the point of sale, I worked on:</p>
+          <div class="modules">
+            <div class="module">
+              <h4><span lang="es">Servicio de impresión</span><span lang="en">Print service</span></h4>
+              <p lang="es">Cola de impresión en base de datos con reclamo atómico, tickets con QR en impresoras térmicas ESC/POS y actualizador con verificación SHA-256.</p>
+              <p lang="en">Database-backed print queue with atomic claiming, QR tickets on ESC/POS thermal printers and a SHA-256-verified updater.</p>
+              <span class="role"><span lang="es">Autor</span><span lang="en">Author</span> · Python · Electron</span>
+            </div>
+            <div class="module">
+              <h4><span lang="es">Depósitos y cámaras de frío</span><span lang="en">Cold-storage warehouses</span></h4>
+              <p lang="es">Alquiler de cámaras frigoríficas: editor del plano del depósito con mapa de calor de ocupación, stock por ubicación, temperatura y escaneo QR.</p>
+              <p lang="en">Cold-room rentals: warehouse floor-plan editor with occupancy heatmap, stock by location, temperature and QR scanning.</p>
+              <span class="role"><span lang="es">Frontend + aportes a la API</span><span lang="en">Frontend + API contributions</span> · Vue 3 · Rust</span>
+            </div>
+            <div class="module">
+              <h4><span lang="es">Facturación de servicios</span><span lang="en">Service invoicing</span></h4>
+              <p lang="es">Migración de la facturación de la versión .NET a Vue 3 + TypeScript estricto, con solicitud de CAE a AFIP (factura electrónica).</p>
+              <p lang="en">Migrated service invoicing from the .NET version to Vue 3 + strict TypeScript, requesting AFIP CAE (e-invoicing).</p>
+              <span class="role">Frontend · TypeScript</span>
+            </div>
+            <div class="module">
+              <h4><span lang="es">APIs y sincronización</span><span lang="en">APIs &amp; sync</span></h4>
+              <p lang="es">Login OAuth2/JWT y recuperación de contraseña, sincronizador de clientes y proveedores, sincronización de movimientos puesto ↔ nube y API de productos en Rust (Axum).</p>
+              <p lang="en">OAuth2/JWT login and password recovery, customer/supplier synchronizer, stall ↔ cloud movement sync and a Rust (Axum) products API.</p>
+              <span class="role">FastAPI · PostgreSQL · SQL Server · Rust</span>
+            </div>
+            <div class="module">
+              <h4><span lang="es">Pedidos y cuentas corrientes</span><span lang="en">Orders &amp; customer accounts</span></h4>
+              <p lang="es">App de pedidos con carrito, listas de precios, saldos de clientes y validación de CUIT, con backend Django y FastAPI en Docker.</p>
+              <p lang="en">Ordering app with cart, price lists, customer balances and CUIT validation, backed by Django and FastAPI on Docker.</p>
+              <span class="role">Quasar · Django · FastAPI · Docker</span>
+            </div>
+          </div>
+        </article>
+
+        <div class="grid-2">
+          <!-- Turnero -->
+          <article class="project project--card">
+            <figure class="shot shot--wide">
+              <img src="assets/img/projects/turnero-login.webp" alt="Turnero Total Pilates" loading="lazy" width="1280" height="720" />
+            </figure>
+            <div class="project__head">
+              <img class="project__logo" src="assets/img/projects/logo-totalpilates.webp" alt="" width="44" height="44" />
+              <div>
+                <h3>Turnero — Total Pilates Fitness</h3>
+                <p class="project__meta">2025 — 2026 · <span lang="es">Autor · cliente real (Neuquén)</span><span lang="en">Author · real client (Neuquén)</span></p>
+              </div>
+            </div>
+            <p lang="es">Sistema de turnos, alumnos y abonos para un estudio de pilates. Grilla semanal, reservas fijas, packs con créditos, clases de recupero, feriados y exportación a Excel/PDF.</p>
+            <p lang="en">Booking, members and memberships for a pilates studio. Weekly grid, recurring bookings, credit packs, make-up classes, holidays and Excel/PDF export.</p>
+            <ul class="bullets">
+              <li lang="es">Asistencia desde el celular escaneando un QR (token de corta duración) y renovaciones por WhatsApp.</li>
+              <li lang="en">Attendance from a phone by scanning a QR (short-lived token) and WhatsApp renewal messages.</li>
+              <li lang="es">API en Render + cliente de escritorio Electron con instalador; tests con pytest, Vitest y Playwright.</li>
+              <li lang="en">API on Render + Electron desktop client with installer; tests with pytest, Vitest and Playwright.</li>
+            </ul>
+            <ul class="tags"><li>FastAPI</li><li>PostgreSQL</li><li>Vue 3</li><li>Quasar</li><li>Electron</li><li>Render</li></ul>
+          </article>
+
+          <!-- Linktree -->
+          <article class="project project--card project--split">
+            <figure class="shot shot--phone"><img src="assets/img/projects/totalpilates-linktree.webp" alt="Landing de enlaces de Total Pilates" loading="lazy" width="390" height="530" /></figure>
+            <div class="project__split-body">
+              <div class="project__head">
+                <img class="project__logo" src="assets/img/projects/logo-totalpilates.webp" alt="" width="44" height="44" />
+                <div>
+                  <h3><span lang="es">Landing de enlaces + QR</span><span lang="en">Link landing + QR</span></h3>
+                  <p class="project__meta">2026 · Total Pilates Fitness</p>
+                </div>
+              </div>
+              <p lang="es">Página estática mobile-first (Tailwind) con WhatsApp, Instagram, ubicación, horarios y disciplinas, más un generador de QR con el logo del estudio para imprimir en el local.</p>
+              <p lang="en">Mobile-first static page (Tailwind) with WhatsApp, Instagram, location, hours and classes, plus a QR generator with the studio logo for in-store printing.</p>
+              <ul class="tags"><li>HTML</li><li>Tailwind</li><li>Node.js</li><li>Render</li></ul>
+              <a class="link" href="https://linkstotalpilates.onrender.com/" target="_blank" rel="noopener"><span lang="es">Ver sitio en vivo</span><span lang="en">Visit live site</span> ↗</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="grid-3">
+          <!-- FaneGastos -->
+          <article class="project project--card">
+            <div class="phones">
+              <figure class="shot shot--phone"><img src="assets/img/projects/fanegastos-resumen.webp" alt="FaneGastos: resumen del mes" loading="lazy" width="390" height="530" /></figure>
+              <figure class="shot shot--phone"><img src="assets/img/projects/fanegastos-graficos.webp" alt="FaneGastos: gastos por categoría" loading="lazy" width="390" height="530" /></figure>
+            </div>
+            <div class="project__head">
+              <img class="project__logo" src="assets/img/projects/logo-fanegastos.webp" alt="" width="44" height="44" />
+              <div>
+                <h3>FaneGastos</h3>
+                <p class="project__meta">2026 · <span lang="es">App Android personal</span><span lang="en">Personal Android app</span></p>
+              </div>
+            </div>
+            <p lang="es">Gestor de gastos mobile-first: salario vs. gastado, comparativa con el mes anterior, gráficos por categoría y por mes, filtros y exportación a CSV/Excel. Compilada como APK con Capacitor.</p>
+            <p lang="en">Mobile-first expense tracker: salary vs. spent, month-over-month comparison, charts by category and month, filters and CSV/Excel export. Built as an APK with Capacitor.</p>
+            <ul class="tags"><li>Vue 3</li><li>Quasar</li><li>Pinia</li><li>Capacitor</li></ul>
+          </article>
+
+          <!-- MixCS -->
+          <article class="project project--card">
+            <figure class="shot shot--wide">
+              <img src="assets/img/projects/mixcs-generar.webp" alt="MixCS: generador de equipos balanceados" loading="lazy" width="1000" height="600" />
+            </figure>
+            <div class="project__head">
+              <span class="project__logo project__logo--emoji" aria-hidden="true">🎯</span>
+              <div>
+                <h3>MixCS</h3>
+                <p class="project__meta">2026 · <span lang="es">App de escritorio personal</span><span lang="en">Personal desktop app</span></p>
+              </div>
+            </div>
+            <p lang="es">Arma equipos 5v5 balanceados de Counter-Strike para mi grupo de amigos. Evalúa las 126 divisiones posibles, penaliza repetir compañeros recientes y desempata al azar. Votación de notas e historial.</p>
+            <p lang="en">Builds balanced 5v5 Counter-Strike teams for my group of friends. Evaluates all 126 possible splits, penalizes repeating recent teammates and breaks ties randomly. Rating votes and match history.</p>
+            <ul class="tags"><li>FastAPI</li><li>pywebview</li><li>Vue 3</li><li>Quasar</li><li>PyInstaller</li></ul>
+          </article>
+
+          <!-- whoUnfollow -->
+          <article class="project project--card">
+            <figure class="shot shot--term">
+              <div class="term term--sm">
+                <div class="term__bar"><i></i><i></i><i></i><span>whoUnfollow</span></div>
+<pre class="term__body"><code><span class="c-p">$</span> python whounfollow.py export.zip \
+    --verify --csv resultados
+<span class="c-c"># Muestra quién no te sigue de vuelta</span>
+<span class="c-k">→</span> resumen.txt
+<span class="c-k">→</span> no_me_siguen.csv
+<span class="c-k">→</span> no_sigo_de_vuelta.csv
+<span class="c-k">→</span> mutuos.csv
+<span class="c-k">→</span> cuentas_eliminadas.csv</code></pre>
+              </div>
+            </figure>
+            <div class="project__head">
+              <span class="project__logo project__logo--emoji" aria-hidden="true">🐍</span>
+              <div>
+                <h3>whoUnfollow</h3>
+                <p class="project__meta">2026 · <span lang="es">Herramienta CLI</span><span lang="en">CLI tool</span></p>
+              </div>
+            </div>
+            <p lang="es">Procesa la exportación oficial de datos de Instagram (JSON o HTML) y calcula quién no te sigue de vuelta. Puede verificar si una cuenta sigue existiendo, con caché y backoff ante límites. Solo librería estándar de Python, con tests.</p>
+            <p lang="en">Processes Instagram's official data export (JSON or HTML) and finds who doesn't follow you back. Can check whether accounts still exist, with caching and rate-limit backoff. Standard library only, with tests.</p>
+            <ul class="tags"><li>Python</li><li>CLI</li><li>unittest</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section">
+      <div class="container contact">
+        <h2 class="section__title"><span class="num">05</span><span lang="es">Contacto</span><span lang="en">Contact</span></h2>
+        <p class="contact__lead" lang="es">¿Estás construyendo algo y necesitás a alguien que se ocupe del backend de punta a punta? Hablemos.</p>
+        <p class="contact__lead" lang="en">Building something and need someone to own the backend end to end? Let's talk.</p>
+        <div class="contact__links">
+          <a class="contact__card" href="mailto:maugonzalez96@hotmail.com">
+            <span class="contact__label">Email</span>
+            <span class="contact__value">maugonzalez96@hotmail.com</span>
+          </a>
+          <a class="contact__card" href="https://www.linkedin.com/in/mauricio-gonzalez-773286252/" target="_blank" rel="noopener">
+            <span class="contact__label">LinkedIn</span>
+            <span class="contact__value">mauricio-gonzalez-773286252</span>
+          </a>
+          <a class="contact__card" href="https://github.com/MauriGonzalez96" target="_blank" rel="noopener">
+            <span class="contact__label">GitHub</span>
+            <span class="contact__value">MauriGonzalez96</span>
+          </a>
+        </div>
+        <p class="contact__note" lang="es">Neuquén, Argentina · Español nativo · Inglés técnico (intermedio)</p>
+        <p class="contact__note" lang="en">Neuquén, Argentina · Native Spanish · Technical English (intermediate)</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year">2026</span> Mauricio Javier Gonzalez</p>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox__close" type="button" aria-label="Cerrar">×</button>
+    <img alt="" />
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
